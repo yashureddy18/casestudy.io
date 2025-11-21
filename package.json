@@ -4,7 +4,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "tsc && vite build",
+=======
+  "build": "vite build",
+>>>>>>> local-change
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,8 +33,7 @@
     "react-dom": "^18.2.0",
     "react-pdf": "7.7.0"
   },
-  
+
   "engines": { "node": ">=18" }
-  
 
 }
