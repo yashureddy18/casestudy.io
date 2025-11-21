@@ -1,0 +1,36 @@
+{
+  "name": "pdf-viewer-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+  "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "rimraf": "^6.1.2",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.1",
+    "@types/pdfjs-dist": "^2.10.377",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "pdfjs-dist": "3.11.174",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "7.7.0"
+  },
+  
+  "engines": { "node": ">=18" }
+  
+
+}
